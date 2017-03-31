@@ -1,0 +1,39 @@
+.infohead, .adminaccount{
+	padding: 5px;
+	text-align: center;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+
+}
+
+.information, .changePass, .noticeBoard{
+	padding: 5px;
+
+}
+
+
+.passbox input, .noticeBoard input{
+	width: 200px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+
+
+.changePass, .noticeBoard, .teacherInfo, .studentInfo{
+   box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+}
+
+.headingLabel{
+	font-size: 20px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 5px;
+}
+
+.information input, textarea{
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+

@@ -1,0 +1,172 @@
+.header{
+	width: 70%;
+	margin-left: 15%; 
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: right;
+	padding: 10px;
+	background-image: url("/resource/images/headback.png");
+	min-height: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	background-color: #ffffe0;  
+	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+}
+
+.header a , #contact{
+	text-decoration: none;
+ }
+
+ #mainbody{
+ 	margin-bottom: 210px;
+
+ }
+
+ #block1, #block2 {
+ 	background-color: #00999f;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+    border-radius: 5px;
+    display: inline-block;
+ }
+
+ #block1{
+ 	float: left; 
+ 	width:35%;
+ }
+ 
+
+#userId{
+   padding: 5px;
+}
+
+#password{
+	padding: 5px;
+}
+
+#login{
+	max-width: 30%;
+	margin: 5px;
+}
+  
+ #block2{
+ 	 float: right;	
+    width: 60%;
+    height:165px;
+ }
+
+ .notice_header, #loginhead{
+ 	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+ 	border-radius: 5px;
+ 	padding: 10px;
+   text-align: center;
+ }
+
+ .notice_body{
+ 	padding: 5px;
+ 	text-align: left;
+ 	height: 100px;
+    overflow: auto;
+ }
+
+ #star{
+ 	color: red;
+ }
+
+ #block_container{
+ 	margin-left: 15%;
+ 	width: 71.5%;
+ 	 
+ }
+
+
+ .slider{
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 2%;
+ 	width: 70%;
+    background-color: #669999;
+ 	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+ 	border-radius: 5px;
+ 	padding: 10px;
+ }
+
+  
+
+  .mySlides{
+  	height: 200px;
+  	width: 100%;
+  	padding-bottom: 5px;
+  	margin-bottom: 5px;
+  	border-radius: 5px;
+  }
+
+ .btn{
+ 	margin: 5px;
+ 	font-size: 20px;
+ 	padding: 5px;
+ 	border: 1px solid #ffff00;
+ 	border-radius: 5px;
+ 	cursor: pointer;
+ }
+
+ .btn:hover{
+ 	background-color: #ffffe0;
+ 	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+ 	border-radius: 5px;
+ }
+
+ .footer{
+ 	width: 70%;
+ 	margin-left: 15%;
+ 	background-color: #669999;
+ 	border-radius: 5px;
+ 	margin-top: 10px;
+ 	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+ 	border-radius: 5px;
+ 	padding: 10px;
+ 	text-align: center;
+ }
+
+ #block1 input{
+     border-radius: 3px;
+     width: 90%;
+ }
+
+
+ /* Dropdown Button */
+.dropbtn {
+    cursor: pointer;
+    color: blue;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

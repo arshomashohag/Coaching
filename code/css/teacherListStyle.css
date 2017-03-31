@@ -1,0 +1,111 @@
+#teacher_list{
+	width: 70%;
+	margin-left: 15%;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+	padding: 10px; 
+
+}
+
+#teacher_head{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 2%;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+	padding: 10px;
+	border-radius: 2px;
+	text-align: right;
+}
+
+#head_label{
+	float: left;
+}
+
+#search{
+ margin-left: 5px;
+ border-radius: 2px;
+}
+
+ 
+#teacher_body{
+	padding: 10px;
+}
+.teacher_details{
+	height: 400px;
+	overflow-y:auto; 
+
+}
+
+td, th{
+	padding: 5px; 
+}
+ 
+tr:nth-child(even) {
+    background-color: #ffff9e;
+   
+}
+
+tr:nth-child(odd){
+	background-color: #ffff7e;
+
+}
+
+.nameandphoto img{
+	border: 5px solid white;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+}
+
+.photo{
+	width: 40%;
+}
+.stars{
+	width: 20%;
+}
+
+.stars img{
+	 padding: 3px;
+}
+
+.stars img:hover{	 
+   transform: scale(1.2);
+   
+}
+
+.contact{
+	width: 40%;
+}
+
+.namandphoto, .details{
+	display: inline-block;
+	margin:5px; 
+}
+
+.namandphoto{
+	box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+    padding: 5px;
+    border-radius: 5px; 
+    max-width: 90px;
+}
+
+.details{
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+
+}
+.photo img{
+	border: 5px solid white;
+	border-radius: 5px;
+}
+
+table{
+     margin-top: 10px;
+    width: 100%;
+    resize: both;
+    overflow: auto;
+
+}​
+
+
+
